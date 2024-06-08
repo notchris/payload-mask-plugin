@@ -19,7 +19,7 @@ yarn add payload-mask-plugin
 
 ```ts
 // payload.config.ts
-import maskPlugin from 'payload-mask-plugin'
+import { maskPlugin } from 'payload-mask-plugin'
 
 export default buildConfig({
   ...
