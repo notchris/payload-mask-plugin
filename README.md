@@ -10,11 +10,21 @@
 
 Install the plugin and use on a text field in a Collection or Global.
 
+## Installation
+
+```bash
+yarn add payload-mask-plugin
+```
+
 
 ```ts
 // payload.config.ts
-...
-plugins: [maskPlugin({ enabled: true })],
+import maskPlugin from 'payload-mask-plugin'
+
+export default buildConfig({
+  ...
+  plugins: [maskPlugin({ enabled: true })],
+})
 ```
 
 ```ts
