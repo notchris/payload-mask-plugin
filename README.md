@@ -1,6 +1,8 @@
 # Payload Mask Plugin
 #### Adds input masking to [Payload](https://payloadcms.com/).
 
+![image](https://github.com/notchris/payload-mask-plugin/blob/main/example.gif?raw=true)
+
 ### Features:
 
 - Input masking using  [IMask](https://github.com/uNmAnNeR/imaskjs/tree/master?tab=readme-ov-file)
