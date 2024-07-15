@@ -48,7 +48,7 @@ export const TextFieldInputMask: React.FC<Props> = ({
           ref={ref}
           lazy={false}
           inputRef={inputRef}
-          onAccept={(value) => setValue(value)}
+          onAccept={newValue => newValue !== value && setValue(newValue)}
           placeholder={placeholder}
         />
         {showValue && <div>{value}</div>}

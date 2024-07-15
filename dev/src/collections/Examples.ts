@@ -5,6 +5,11 @@ const Examples: CollectionConfig = {
   fields: [
     {
       type: "text",
+      name: "testfield",
+      label: "Test",
+    },
+    {
+      type: "text",
       name: "example_mask",
       label: "Input Mask Example",
 
