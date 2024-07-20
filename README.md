@@ -44,6 +44,7 @@ const Examples: CollectionConfig = {
       custom: {
         mask: "+{1}(000)000-00-00",
         showValue: true,
+        saveMaskedValue: false
       },
     },
   ],
