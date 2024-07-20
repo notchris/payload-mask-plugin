@@ -1,4 +1,4 @@
-import type { Config, Plugin } from "payload/config";
+import type { Plugin } from "payload/config";
 
 import { onInitExtension } from "./onInitExtension";
 import type { PluginTypes } from "./types";
@@ -24,6 +24,7 @@ const addMaskInputs = (collectionOrGlobal: CollectionConfig | GlobalConfig) => {
               placeholder: field.admin?.placeholder,
               radix: field.custom?.radix,
               showValue: field.custom?.showValue,
+              saveMaskedValue: field.custom?.saveMaskedValue
             }),
         };
       }
